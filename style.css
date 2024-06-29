@@ -1,0 +1,53 @@
+body{
+    background-color:rgb(172, 211, 245);
+    
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    border: 5px solid black;
+    border-radius: 5%;
+    text-align: center;
+    height: 300px;
+}
+.btn{
+    background-color:#0d6efd;
+    border:1px solid black;
+    border-radius: 10%;
+    padding:6px;
+    color:white;
+}
+.text{
+    border:1px solid black;
+}
+.text2{
+    border:1px solid black;
+}
+@media(min-width:636px)
+{
+    
+.box{
+    display: inline-block;
+    margin-left:30%;
+    margin-top:20px;
+    
+}
+.container{
+
+    width:400px;
+  
+}
+    
+}
+
+
+
+
+
